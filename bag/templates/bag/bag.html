@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="col">
-            {% if bag_items %} 
+            
                 <div class="table-responsive rounded">
                     <table class="table table-sm table-borderless">
                         <thead class="text-black">
@@ -29,7 +29,7 @@
                                 <th scope="col">Product Info</th>
                                 <th scope="col"></th>
                                 <th scope="col">Price</th>
-                                <th scope="col"><Qty/th>
+                                <th scope="col">Qty</th>
                                 <th scope="col">Subtotal</th>
                                 
                             </tr>
@@ -49,7 +49,7 @@
                                     <p class="my-0">$ {{ item.product.price}}</p>
                                 </td>
                                 <td class="py-3">
-                                    <p class="my-0">{{ item.product.quantity}}</p>
+                                    <p class="my-0">{{ item.quantity}}</p>
                                 </td>
                                 <td class="py-3">
                                     <p class="my-0">${{ item.product.price}}</p>
