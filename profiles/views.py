@@ -23,7 +23,7 @@ def profile(request):
         'form': form,
         'orders': orders,
         'on_profile_page': True
+        
     }
 
     return render(request, template, context)
-    
