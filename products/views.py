@@ -4,7 +4,7 @@ from django.db.models import Q
 from .models import Product, Category
 from django.db.models.functions import Lower
 from .forms import ProductForm
-from django.contrip.auth.decorators import login_required
+from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
